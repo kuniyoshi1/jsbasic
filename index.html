@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js練習1</title>
+</head>
+<body>
+ 
+ 
+  
+  <div>
+    <p id="test">DOM操作テスト</p>
+  </div>
+  
+  <div>
+<!--    hrefでjavascript動かしてアラート出す方法。-->
+    <a href="JavaScript:window.alert('OK')">あら～～と</a>
+    
+<!--    DOM操作、idのイベントでfunctionを動かして、アラート出す方法-->
+    <button id="alertbtn">アラートボタン</button>
+    
+    <button onclick="btn_click()">怪しいボタン</button>
+    
+    
+  </div>
+  <div>
+    <input type="text" onblur="btn_click()">
+  
+    <input type="text" >
+  </div>
+  
+  <button id="btn">ボタン</button>
+  
+  
+  <script src="app.js"></script>
+</body>
+</html>
