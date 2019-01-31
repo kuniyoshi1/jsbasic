@@ -409,16 +409,32 @@ function btn_click(){
 }
 
 
+function btn_click_h(){
+   let tagp = document.createElement('p');
+   let textp = document.createTextNode('test');
+   document.body.appendChild(tagp).appendChild(textp);
+}
+
+console.log('forin文--------------------------------');
+
+let prices = {
+  apple: 150,
+  banana: 200,
+  grape: 300
+}
+
+for(key in prices){
+  console.log(prices[key]);
+}
 
 
+console.log('for of--------------------------');
 
+let hobbies = ['music','moto','fishing'];
 
-
-
-
-
-
-
+for(value of hobbies){
+  console.log(value);
+}
 
 
 
